@@ -1,0 +1,61 @@
+body {
+    background-image: url(pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e3deda;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.meeting {
+    border: 3px solid black;
+    margin-top: 50px;
+    border-radius: 100%;
+    padding: 20px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.vanish {
+    display: none;
+
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    opacity: 0.5;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+}
+/* .canv {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+} */
+canvas { 
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    image-rendering: pixelated;
+}
